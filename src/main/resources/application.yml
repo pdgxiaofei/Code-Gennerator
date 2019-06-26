@@ -4,7 +4,7 @@ Spring:
   application:
     name: stupid-generator
   profiles:
-    active: dev
+    active: prod
 # Mybatis
 mybatis:
   mapperLocations: classpath:mapper/**/*.xml
