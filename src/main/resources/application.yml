@@ -1,0 +1,11 @@
+server:
+  port: 8523
+Spring:
+  application:
+    name: stupid-generator
+  profiles:
+    active: dev
+# Mybatis
+mybatis:
+  mapperLocations: classpath:mapper/**/*.xml
+

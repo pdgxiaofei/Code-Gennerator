@@ -1,0 +1,39 @@
+# git
+!.gitignore
+*/.gitignore
+*/*/.gitignore
+
+# intellij
+.idea/
+**/.idea
+**/.impl
+*.iml
+*.ipr
+*.iws
+build-idea/
+
+# eclipse
+.metadata/
+.project
+.classpath
+.settings
+target/
+build-eclipse/
+bin/
+
+# osx stuff
+.DS_Store
+
+# testing stuff
+*/test-output/
+*test/bin
+*.log
+*.log.*
+*test/test-output/
+*test/log.root.path_IS_UNDEFINED
+*log/ehcache
+.idea
+*.iml
+**/.idea
+**/.impl
+.sonarlint
