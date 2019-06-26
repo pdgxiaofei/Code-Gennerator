@@ -1,0 +1,13 @@
+# mysql
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.181:8080/config_center?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: cnswitch
+    password: 1qaz@WSX
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  resources:
+    static-locations: classpath:/static/,classpath:/views/
